@@ -14,8 +14,7 @@ The pipeline is predicting good results on barcode present on packets, cans and 
 ![image](https://github.com/shubh-tiwari/barcode_localizer/blob/main/images/result2.JPG)
 
 ### Inference on video
-To inference on video, the following script can be used : [Video inference script](https://github.com/shubh-tiwari/barcode_localizer/blob/main/scripts/video_infer.py)
-This script will take model path and original video as input and will return video with bounding box.
+To inference on video, the following script can be used : [Video inference script](https://github.com/shubh-tiwari/barcode_localizer/blob/main/scripts/video_infer.py). This script will take model path and original video as input and will return video with bounding box.
 
 ### Comment
 This task is done to explore the selective search based region proposal. The same task can be accomplished much more effiently using yolo, SSD or any other newer object detection method.
